@@ -107,6 +107,11 @@ h2 {
  	.imagen-slider-container .imagen-slider{
  		max-width: 30vw;
  	}
+
+    .redes-sociales {
+        margin-left: 0;
+        flex-wrap: nowrap;
+    }
 }
 
 @media (min-width: 560px) {
