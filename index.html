@@ -54,7 +54,7 @@
     </header>
     <!-- FIN HERO -->
     <!-- INICIO SECCION SOBRE MI -->
-    <section class="container about-me my-5">
+    <section id="about" class="container about-me my-5">
         <h3 class="display-4 font-weight-bold mt- text-center">Un poco de mi</h3>
         <div class="row justify-content-center">
             <div class="separador-titles"></div>
@@ -78,7 +78,7 @@
     </section>
     <!-- FIN SECCION SOBRE MI -->
     <!-- INICIO EXPERIENCIAS -->
-    <section class="container-fluid my-5">
+    <section id="exp" class="container-fluid my-5">
         <h3 class="display-4 font-weight-bold text-center mt-5">Experiencia</h3>
         <div class="row justify-content-center mb-5">
             <div class="separador-titles"></div>
@@ -112,37 +112,67 @@
     </section>
     <!-- FIN SECCION EXPERENCIAS -->
     <!-- INICIO SECCION TRABAJOS -->
-    <section>
-        <section class="container my-5 p-5" id="works">
-            <h3 class="display-4 text-center font-weight-bold mb-3">Mis trabajos</h3>
-            <div class="card-deck my-5 col-s-10">
-                <div class="card">
-                    <img class="card-img-top" src="assets/img/ui.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Trabajos UI</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iure sint.</p>
-                        <button type="button" class="btn btn-outline-info px-5" data-toggle="modal" data-target="#trabajos-ui">Ver más</button>
+    <section class="container my-5 p-5" id="works">
+        <h3 class="display-4 text-center font-weight-bold mb-3">Mis trabajos</h3>
+        <div class="card-deck my-5 col-s-10">
+            <div class="card">
+                <img class="card-img-top" src="assets/img/ui.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Trabajos UI</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iure sint.</p>
+                    <button type="button" class="btn btn-outline-info px-5" data-toggle="modal" data-target="#trabajos-ui">Ver más</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/img/web.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Trabajos Web</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam.</p>
+                    <button type="button" class="btn btn-outline-info px-5" data-toggle="modal" data-target="#trabajos-web">Ver más</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/img/mis-proyectos.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Mis proyectos</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati facere quibusdam sint.</p>
+                    <button type="button" class="btn btn-outline-info px-5" data-toggle="modal" data-target="#mis-proyectos">Ver más</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- INICIO CONTACTAME -->
+    <section class="container-fluid bg-light">
+        <section id="contact" class="container py-5">
+            <h3 class="display-5 font-weight-bold text-center my-4">Contáctate conmigo :D</h3>
+            <div class="typeform-widget" data-url="https://franibe.typeform.com/to/AYVtoJ" style="width: 100%; height: 500px;"></div>
+            <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+            <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=AYVtoJ&utm_source=typeform.com-13260463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+        </section>
+    </section>
+    <!-- INICIO FOOTER -->
+    <footer class="container-fluid bg-dark">
+        <h3 class="display-5 font-weight-light text-center text-white pt-5">Visítame en mis redes sociales :D</h3>
+        <div class="container py-5">
+            <div class="row justify-content-center col-xs-12">
+                <div class="facebook col-md-4">
+                    <div class="icon text-center text-white mb-4">
+                        <i class="fab fa-facebook-square fa-4x"></i>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" src="assets/img/web.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Trabajos Web</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam.</p>
-                        <button type="button" class="btn btn-outline-info px-5" data-toggle="modal" data-target="#trabajos-web">Ver más</button>
+                <div class="twitter col-md-4">
+                    <div class="icon text-center text-white mb-4">
+                        <i class="fab fa-twitter-square fa-4x"></i>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" src="assets/img/mis-proyectos.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Mis proyectos</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati facere quibusdam sint.</p>
-                        <button type="button" class="btn btn-outline-info px-5" data-toggle="modal" data-target="#mis-proyectos">Ver más</button>
+                <div class="instagram col-md-4">
+                    <div class="icon text-center text-white mb-4">
+                        <i class="fab fa-instagram fa-4x"></i>
                     </div>
                 </div>
             </div>
-        </section>
-    </section>
+        </div>
+    </footer>
     <!-- INICIO MODALS -->
     <!-- MODAL TRABAJOS UI -->
     <div class="modal fade" id="trabajos-ui" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -189,7 +219,7 @@
         </div>
     </div>
     <!-- MODAL MIS PROYECTOS -->
-        <div class="modal fade" id="mis-proyectos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="mis-proyectos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <div class="modal-header">
