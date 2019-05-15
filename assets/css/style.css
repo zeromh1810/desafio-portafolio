@@ -93,3 +93,11 @@ h2 {
 .about-me .biografia p span {
     font-style: italic;
 }
+
+.experiencia {
+	background-image: url('../img/experiencia-bg.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	min-height: 350px;
+}
