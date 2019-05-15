@@ -98,9 +98,14 @@ h2 {
 .experiencia {
 	background-image: url('../img/experiencia-bg.jpg');
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
 	background-attachment: fixed;
 	min-height: 300px;
+}
+
+.redes-sociales {
+    margin-left: 0;
+    flex-wrap: nowrap;
 }
 
 @media (max-width: 559px) {
