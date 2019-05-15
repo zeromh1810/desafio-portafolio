@@ -103,15 +103,16 @@ h2 {
 	min-height: 300px;
 }
 
-@media (max-width: 559px) {
- 	.imagen-slider-container .imagen-slider{
- 		max-width: 30vw;
- 	}
-
     .redes-sociales {
         margin-left: 0;
         flex-wrap: nowrap;
     }
+
+
+@media (max-width: 559px) {
+ 	.imagen-slider-container .imagen-slider{
+ 		max-width: 30vw;
+ 	}
 }
 
 @media (min-width: 560px) {
