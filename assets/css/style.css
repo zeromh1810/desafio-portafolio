@@ -35,7 +35,7 @@ h2 {
 .hero-container {
     background-image: url('../img/hero-bg.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     min-height: 600px;
     max-width: 100vw;
     display: flex;
