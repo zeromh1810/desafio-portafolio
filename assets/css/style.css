@@ -102,3 +102,15 @@ h2 {
 	background-attachment: fixed;
 	min-height: 300px;
 }
+
+@media (max-width: 559px) {
+ 	.imagen-slider-container .imagen-slider{
+ 		max-width: 30vw;
+ 	}
+}
+
+@media (min-width: 560px) {
+ 	.imagen-slider-container .imagen-slider{
+ 		max-width: 20vw;
+ 	}
+}

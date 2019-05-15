@@ -2,20 +2,21 @@ $(function() {
     $('#myModal').on('shown.bs.modal', function() {
         $('#myInput').trigger('focus')
     })
-
     $("a").click(function(event) {
         if (this.hash !== "") {
             event.preventDefault();
 
-            var scroll = this.hash;
+            var gato = this.hash;
 
             $("html, body").animate({
-                scrollTop: $(scroll).offset().top
-            }, 600, function() {
-                window.location.hash = scroll;
+                scrollTop: $(gato).offset().top
+            }, 800, function() {
+                window.location.hash = gato;
             });
         }
     });
-
     $('[data-toggle="popover"]').popover();
+    $('.carousel').carousel({
+        interval: 5000
+    })
 });
