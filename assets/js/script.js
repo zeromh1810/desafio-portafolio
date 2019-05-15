@@ -3,17 +3,19 @@ $(function() {
         $('#myInput').trigger('focus')
     })
     $("a").click(function(event) {
-        if (this.hash !== "") {
+
+        
+
+        var scroll = this.hash;
+        $scroll = $(scroll);
+
+        $("html, body").stop().animate({
+            'scrollTop': $(scroll).offset().top - 85
+        }, 1000, 'swing', function() {
+            window.location.hash = scroll;
             event.preventDefault();
+        });
 
-            var gato = this.hash;
-
-            $("html, body").animate({
-                scrollTop: $(gato).offset().top
-            }, 800, function() {
-                window.location.hash = gato;
-            });
-        }
     });
     $('[data-toggle="popover"]').popover();
     $('.carousel').carousel({
